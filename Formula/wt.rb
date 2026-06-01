@@ -1,27 +1,27 @@
 class Wt < Formula
   desc "Git worktree CLI for power users"
   homepage "https://github.com/bazelment/yoloswe"
-  version "2026.05.29"
+  version "2026.06.01"
 
   on_macos do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.05.29/wt-v2026.05.29-darwin-arm64.tar.gz"
-      sha256 "1a9fb74e9370072aada1897e70bc230659f6b4e0c37081889bee53974d1e3815"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.01/wt-v2026.06.01-darwin-arm64.tar.gz"
+      sha256 "aacf6805a135c656fe7541aafc925f5900b63ce7a0a4759bb9848cc1d791b596"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.05.29/wt-v2026.05.29-darwin-amd64.tar.gz"
-      sha256 "af0d20203b5339e0758e11a3c8f17b5cc552f170696d485b87ccf5b9a330bc90"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.01/wt-v2026.06.01-darwin-amd64.tar.gz"
+      sha256 "42e0ebc4f7e097b81c31d0ef11f9bc8d45df24359209faf29d41008dfa64ed0b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.05.29/wt-v2026.05.29-linux-arm64.tar.gz"
-      sha256 "44b2c0e2ef04ff2800621a448fc4e3d3ce721228850c7d5def43f1148bd120cc"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.01/wt-v2026.06.01-linux-arm64.tar.gz"
+      sha256 "bc39bcdf97f4c05700ae0f2a95dcd662fd9b4d9b90c6be1fc5722ec5fcaf6a27"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.05.29/wt-v2026.05.29-linux-amd64.tar.gz"
-      sha256 "610013d0d0e3b0d299015e9da5958abaebbcbb923be7f53c3a5fc9f81fdfe713"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.01/wt-v2026.06.01-linux-amd64.tar.gz"
+      sha256 "4f2d1fca5d897a0aa506a857bf7422df158efe570d1692cb8d5e8ede74b2b006"
     end
   end
 
