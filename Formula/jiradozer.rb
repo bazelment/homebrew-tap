@@ -1,27 +1,27 @@
 class Jiradozer < Formula
   desc "Issue-driven development workflow"
   homepage "https://github.com/bazelment/yoloswe"
-  version "2026.06.06"
+  version "2026.06.11"
 
   on_macos do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.06/jiradozer-v2026.06.06-darwin-arm64.tar.gz"
-      sha256 "34b4b3322c46b096a48d9525404efb3c0cfdb8e9f0a22b730bf938e4eefbb512"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.11/jiradozer-v2026.06.11-darwin-arm64.tar.gz"
+      sha256 "816e4a41ce163d73849fc180c2b01a984c59e30bf69687bb68d9d0ea2dec48b8"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.06/jiradozer-v2026.06.06-darwin-amd64.tar.gz"
-      sha256 "ad67b25d9177a8ab69e86d3b1fa5a80df4bb20e5d7dbdfa9460e6c935c7527f4"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.11/jiradozer-v2026.06.11-darwin-amd64.tar.gz"
+      sha256 "cdb7a2c1858690649aba03f0414b0b2e5a8c0cece80cd62823a083fb4e951a4c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.06/jiradozer-v2026.06.06-linux-arm64.tar.gz"
-      sha256 "8c02866e62724eac060387ed05a4a1978e90ec300bc5a300b9dc9623d2ac3774"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.11/jiradozer-v2026.06.11-linux-arm64.tar.gz"
+      sha256 "4e9918a5b82afa27a8f49ee6256d1f1975d0a5cd6daa6a9a61c3922be4554444"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.06/jiradozer-v2026.06.06-linux-amd64.tar.gz"
-      sha256 "26e465d7d12e5c363a4d013178deabafad7e90039a303be5b0eab2faa5737f7e"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.06.11/jiradozer-v2026.06.11-linux-amd64.tar.gz"
+      sha256 "62052c2a7d729d3d6620471674f272be23f216f1593dd7ba421eee8d50dff28e"
     end
   end
 
