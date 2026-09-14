@@ -1,27 +1,27 @@
 class Bramble < Formula
   desc "TUI for managing worktrees and AI sessions"
   homepage "https://github.com/bazelment/yoloswe"
-  version "2026.09.09"
+  version "2026.09.14"
 
   on_macos do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.09/bramble-v2026.09.09-darwin-arm64.tar.gz"
-      sha256 "858fd936fc5d4334e0c49eb70fb0c7c1b22f48810dce44a3c1ef5ea73dd36fbf"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.14/bramble-v2026.09.14-darwin-arm64.tar.gz"
+      sha256 "2cb8ae66fcd552418af6475a1e14c1e87e133c2dd38d3ef7bb418f309923c5cc"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.09/bramble-v2026.09.09-darwin-amd64.tar.gz"
-      sha256 "b865143a4633eda8be7ba5f040e5c2514641486fb656ad602e2ac291d861a4a0"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.14/bramble-v2026.09.14-darwin-amd64.tar.gz"
+      sha256 "05a8666c245d2d4d9db0a390dc8bd7fc264e04987b12b42f0bf2694ef5582dc3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.09/bramble-v2026.09.09-linux-arm64.tar.gz"
-      sha256 "3de935ba0e170f15b2b5c3d763dfad0b60b672993dc0b9f66994ae7ff9987c89"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.14/bramble-v2026.09.14-linux-arm64.tar.gz"
+      sha256 "b5b86ba027935cfd934c67985a7a8a280708e7cb1d8d860b258bf1c70effe0c1"
     end
     on_intel do
-      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.09/bramble-v2026.09.09-linux-amd64.tar.gz"
-      sha256 "d227f8aba46116ed7b37ca9e7523e105a2ddf53a324b9cddf4afaf8192e241e5"
+      url "https://github.com/bazelment/yoloswe/releases/download/v2026.09.14/bramble-v2026.09.14-linux-amd64.tar.gz"
+      sha256 "5ca13a327da51bf051b1b0a375a21c84e251312a1842adcc4185b9160f334044"
     end
   end
 
